@@ -1,0 +1,104 @@
+header{
+    background: rgb(238, 238, 238);
+    display: flex;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  background-color: rgb(244, 158, 0);
+  border-radius: 10px;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline;
+  left: 20%;
+  right: 20%;  
+}
+
+nav{
+  position: absolute;  
+  left: 20%;
+  right: 20%;  
+  margin-top: 10px;
+}
+
+nav li {
+  margin-left: 15px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+nav a:hover {
+  text-decoration: none;
+  background-color: rgb(210, 137, 1);
+  padding: 3px; 
+  border-radius: 10px;
+}
+.continer{
+  display: flex;
+}
+
+body{
+  background: url(img/backg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.sing{
+  position: absolute;
+  right: 0; 
+}
+
+.menu{
+  background-color: rgb(33, 39, 39);
+  padding: 10px;
+  
+  width: 20%; 
+}
+.menu ul{
+  margin-left: -15px;
+  position: sticky;
+  top: 20px;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+ 
+.menu ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.menu ul li a:hover{
+  background-color: rgb(71, 71, 71);
+  padding: 2px;
+  border-radius: 10px; 
+}
+
+.content{
+  background: #e3e3e3;
+  width: 100%;
+  padding: 20px;
+}
+
+section{
+  background: #d3d3d3;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(192, 192, 192);
+  margin-bottom: 80px ;
+}
+
+dt{
+  font-weight: bold;
+  margin: 10px 0;
+}
