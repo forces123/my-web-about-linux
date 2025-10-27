@@ -16,8 +16,8 @@ nav ul {
 
 nav ul li{
   display: inline;
-  left: 20%;
-  right: 20%;  
+  left: 25%;
+  right: 30%;  
 }
 
 nav{
@@ -35,11 +35,11 @@ nav li {
 nav a {
   text-decoration: none;
   color: #333;
+  padding: 3px; 
 }
 nav a:hover {
   text-decoration: none;
   background-color: rgb(210, 137, 1);
-  padding: 3px; 
   border-radius: 10px;
 }
 .continer{
@@ -101,4 +101,21 @@ section{
 dt{
   font-weight: bold;
   margin: 10px 0;
+}
+
+footer{
+  padding: 20px;
+  background-color: #edab38;
+  display: flex;
+
+
+}
+
+footer img{
+  width: 100px;
+  height: auto;
+}
+
+footer div{
+  padding-top: 40px;
 }
